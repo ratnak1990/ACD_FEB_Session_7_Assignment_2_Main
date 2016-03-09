@@ -1,0 +1,7 @@
+.sampleTab,table,td{
+    border: 2px solid black;
+}
+table.odd-rows-hidden tr:nth-child(odd) {
+    display: none;
+    border: 2px solid black;
+}
